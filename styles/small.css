@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
+
+/* This will be what the site uses for */
+* {
+    box-sizing: border-box;
+    font-family: Forum, Halvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    /* height: 100vh; */
+    grid-template: auto 1fr auto / auto 1fr auto;
+    color: #eee;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+header {
+    background: rgb(125, 186, 236);
+    padding: 2rem;
+    grid-column: 1/4;
+    
+    text-align: center;
+}
+main{
+    /* background: rgb(22, 94, 40); */
+    grid-column: 1/4; 
+    /* display: flex; */
+}
+main h1 {
+    width: 100%;
+    color: #eee;
+    background-color: #000;
+}
+main section{
+    margin: 0.5rem;
+    border:1px solid #000;
+    border-radius: 10px;
+    margin: 30px;
+    color: #000;
+}
+
+main section h2 {
+    /* margin: auto; */
+    /* width: 100%; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    color: #eee;
+    background-color: #000;
+    white-space: nowrap;
+    padding: 20px;
+}
+main p
+{
+    display: block;
+    text-align: left;
+    padding: 50px;
+}
+
+/* Start of footer */
+footer {
+    background: rgb(158, 98, 197);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1/4;
+    
+}
+/* Menu edits done here */
+nav {
+    font-family: playfair Display, Halvatica, sans-serif;
+    /* margin: 0 auto 2rem; */
+    max-width: 100%;
+    grid-column: 1/4;
+}
+.navig {
+    list-style: none;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    background-color: black;
+    align-items: center;
+}
+.navig li {
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+.navig a {
+    display: block;
+    color: #eee;
+    /* padding: 0.75rem; */
+    text-decoration: none;
+    text-align: center;
+}
