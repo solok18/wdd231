@@ -45,8 +45,11 @@
         </section>
         <section id="courses">
             <h2>Web and Computer Programin Certificates</h2>
-            <!-- <div id="course">
-            </div> -->
+            <button onclick="filterCourses('all')">All</button>
+            <button onclick="filterCourses('WDD')">WDD Courses</button>
+            <button onclick="filterCourses('CSE')"> CSE Course</button>
+            <p id="totalCredits">Total Credits: 0</p>
+            <div id="course-list"></div>
         </section>
     </main>
     <footer>
@@ -57,5 +60,6 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/courses.js"></script>
 </body>
 </html>

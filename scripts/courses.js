@@ -80,10 +80,13 @@ const courses = [
 
 
 function displayCourses(courseList) {
-    const courseSection = document.querySelector("#courses");
-    courseSection.innerHTML = "";
+    const coursesSection = document.querySelector("#course-list");
+    coursesSection.innerHTML = "";
+
+    let totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
 
     courseList.forEach(course => {
+
         const courseCard = document.createElement("div");
         courseCard.classList.add("course-card");
 
@@ -91,8 +94,32 @@ function displayCourses(courseList) {
             courseCard.classList.add("completed");
         }
 
-        courseCard.innerHTML = 
-        <h3>${course.courseCode}</h3>
+        courseCard.innerHTML = `
+        <h3>${course.subject} ${course.number} - ${course.title}</h3>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Technologies:</strong> ${course.technology.join(",")}</p>
+        `;
 
+        coursesSection.appendChild(courseCard);
     });
+
+    document.querySelector("#totalCredits").textContent = `Total Credits: ${totalCredits}`;
 }
+
+displayCourses(courses);
+
+function filterCourses(category) {
+    let filterCourses;
+
+    if (category === "all") {
+        filterCourses = courses;
+    } else {
+        filterCourses = courses.filter(course => course.subject === category);
+    }
+
+    displayCourses(filterCourses);
+}
+
+
+let totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
+document.querySelector("#totalCredits").textContent = `Total Credits: ${totalCredits}`;
