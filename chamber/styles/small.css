@@ -105,9 +105,7 @@ header h1 {
     margin: 0;
     text-align: center;
 }
-header h1{
-    margin-bottom:  1px;
-}
+
 
 /*------------------ here i edit the footer of the webpage  -------------*/
 footer {
@@ -122,27 +120,7 @@ footer {
 }
 
 /*---------------- here is to edit the main list  ---------------------*/
-main h2 {
-    width: 100%;
-    grid-column: 1/-1;
-    color: #E6B800;
-    background-color: #4C462E;
-    
-}
-main hr {
-    width: 90%;
-    border-color: #807033;
-    grid-column: 1/-1;
-  }
-.home ul {
-    list-style: none;
-}
-main li {
-    text-align: left;
-}
-main  li a{
-    text-decoration: none;
-}
+
 
 main {
     margin: 0 auto;
@@ -154,21 +132,8 @@ main {
 }
 main section{
     margin: 0.5rem;
-    border: 1px solid #807033;
-    
-    background-color: #ffffff;
+    border: 1px solid var(--secondary-color);
     border-radius: 8px;
-    
-}
-
-section h3 {
-    margin: auto;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    
 }
 
 
@@ -182,7 +147,7 @@ section h3 {
 }
 
 .directory section {
-    border: 1px solid #E6B800;
+    border: 1px solid var(--secondary-color);
     padding: 0.5rem;
     background-color: var(--background-color);
     color: #000;
@@ -205,7 +170,7 @@ section h3 {
 #members a {
     font-family: Playfair Display, Halvetica, sans-serif;
     font-size: 1rem;
-    color: #fff;
+    color: var(--primary-color);
     letter-spacing: 1.1pt;
 }
 
