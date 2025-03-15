@@ -48,3 +48,21 @@ const displayMembers = (members) => {
         cards.appendChild(card);
     });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const grid = document.getElementById("grid");
+    const list = document.getElementById("list");
+    const memCont = document.getElementById("members");
+
+    memCont.classList.add("grid");
+
+    grid.addEventListener("click", () => {
+        memCont.classList.add("grid");
+        memCont.classList.remove("list");
+    });
+
+    list.addEventListener("click", () => {
+        memCont.classList.add("list");
+        memCont.classList.remove("grid");
+    });
+});

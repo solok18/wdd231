@@ -17,17 +17,18 @@
 }
 
 body {
-    font-family: Playfair Display, Halvetica, sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
     margin: 0;
   }
 
 p {
-    font-family: Montserrat, Halvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 /*---------------- Here is where the menu will be edited --------------*/
 nav {
-    font-family: Playfair Display, Halvetica, sans-serif;
+    font-family: "Playfair Display"
+, Helvetica, sans-serif;
 }
 
 /*----------- here will be the edits for the hero and call to action --------------*/
@@ -143,7 +144,8 @@ main section{
     margin: 0 auto;
     padding: 0.5rem;
     background-color: #fff;
-    font-family: Playfair Display, Halvetica, sans-serif;
+    font-family: "Playfair Display"
+, Helvetica, sans-serif;
 }
 
 .directory section {
@@ -168,7 +170,8 @@ main section{
     margin-top: 10px;
 }
 #members a {
-    font-family: Playfair Display, Halvetica, sans-serif;
+    font-family: "Playfair Display"
+, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--primary-color);
     letter-spacing: 1.1pt;
@@ -179,5 +182,31 @@ main section{
 
 }
 
+/* Grid */
+#members.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem
+}
 
+#members.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#members.list section {
+    width: 90%;
+    text-align: left;
+}
+
+.viewStyle button {
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .03s ease-in-out;
+}
