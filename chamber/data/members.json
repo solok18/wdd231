@@ -29,8 +29,8 @@
             "addresses" : "2 Folsom St. San Francisco, CA 94105",
             "phonenumber" : "1-800-333-7899",
             "websitesurl" : "https://www.gap.com/",
-            "imageurl" : "images/rebuildtogether.png",
-            "membershiplevel" : "Non Profit"
+            "imageurl" : "images/gap.png",
+            "membershiplevel" : "Gold"
         },
         {
             "name" : "Safeway",

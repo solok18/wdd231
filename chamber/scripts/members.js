@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/solok18/wdd230/main/chamber/data/members.json';
+const url = 'https://raw.githubusercontent.com/solok18/wdd231/refs/heads/main/chamber/data/members.json';
 
 const cards = document.querySelector('#members');
 
