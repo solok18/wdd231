@@ -95,10 +95,10 @@ function displayCourses(courseList) {
         }
 
         courseCard.innerHTML = `
-        <h3>${course.subject} ${course.number} - ${course.title}</h3>
-        <p><strong>Credits:</strong> ${course.credits}</p>
-        <p><strong>Technologies:</strong> ${course.technology.join(",")}</p>
-        `;
+        <h3>${course.subject} ${course.number} - ${course.title}</h3>`;
+        // <p><strong>Credits:</strong> ${course.credits}</p>
+        // <p><strong>Technologies:</strong> ${course.technology.join(",")}</p>
+        // `;
 
         coursesSection.appendChild(courseCard);
     });

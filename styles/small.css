@@ -21,8 +21,21 @@ header {
     background: rgb(125, 186, 236);
     padding: 2rem;
     grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+header img {
+    width: 80px;
+    height: auto;
     
-    text-align: center;
+}
+
+header h2 {
+    /* flex-grow: 1; */
+    font-size: 1.5em;
 }
 /* MAIN BODY EDITS */
 
@@ -49,23 +62,27 @@ main h2 {
 main section{
     margin: 0.5rem;
     border: 1px solid #a9dbde;
-    
     background-color: #ffffff;
     border-radius: 3px;
 }
-main section div {
+main .courseWork div {
     list-style-position: inside;
     justify-items: start;
     padding: 10px;
 }
-main section p {
+main .courseWork p {
     padding: 10px;
     text-align: left;
 }
 .caliState {
-    width: 500px;
+    width: 50%;
     height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
 }
+
 /* main{
     grid-column: 1/4; 
 }
@@ -170,6 +187,17 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
+ }
+
+ #course-list div {
+    flex: 1 1  ;
+    min-width: 200px;
+    padding: 10px;
+    border: 5px solid #000;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: #ffffff; */
  }
  .course-card {
     border: 1px solid #000;
@@ -180,7 +208,15 @@ nav {
 
  .completed {
     background-color: lightgreen;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
+    display: flex;
+ }
+
+ .completed::before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+    
  }
 
  #totalCredits{
