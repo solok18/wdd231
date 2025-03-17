@@ -10,16 +10,6 @@
 	main section:nth-child(5) {
 		grid-column: span 2;
 	}
-
-	/* main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-     */
      nav ul {
 		display: flex;
 	}

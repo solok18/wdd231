@@ -121,5 +121,5 @@ function filterCourses(category) {
 }
 
 
-let totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
+let totalCredits = courses.reduce((sum, course) => sum + course.credits, 0);
 document.querySelector("#totalCredits").textContent = `Total Credits: ${totalCredits}`;
