@@ -142,10 +142,10 @@ nav {
 .open a{
     display: block;
 }
- .active {
+.navig a.active {
     font-weight: bold;
-    color: red;
-    border-bottom: 2px solid red;
+    color: #D9DFFA;
+    border-bottom: 2px solid #D9DFFA;
  }
 
  /*---------------------------- Cards ----------------------------*/
