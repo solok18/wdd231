@@ -32,6 +32,7 @@ header {
 header img {
     width: 80px;
     height: auto;
+    aspect-ratio: 3/4;
     
 }
 
@@ -72,11 +73,12 @@ main .courseWork p {
     text-align: left;
 }
 .caliState {
-    width: 50%;
+    width: 90%;
     height: auto;
     display: block;
     margin: auto;
     padding: 10px;
+    aspect-ratio: 16/9;
     
 }
 
@@ -86,6 +88,7 @@ footer {
     padding: 2rem;
     text-align: center;
     grid-column: 1/4;
+    min-height: 100px;
     
 }
 /*---------------------------- Menu edits done here ----------------------------*/
