@@ -1,4 +1,6 @@
 @media only screen and (min-width: 320px) {
+	/* MENU
+	 */
 	.home {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
@@ -8,6 +10,9 @@
 	}
     .hero{
         grid-column: 1/4;
+		margin: 0;
+		padding: 0;
+		width: 100%;
     }
 	.call-to-action{
 		grid-column: 1/3;
@@ -38,4 +43,10 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
 }

@@ -1,9 +1,9 @@
-const url = 'https://raw.githubusercontent.com/solok18/wdd231/refs/heads/main/chamber/members.json';
+const memberUrl = 'https://raw.githubusercontent.com/solok18/wdd231/refs/heads/main/chamber/members.json';
 
 const cards = document.querySelector('#members');
 
 async function getMemberData() {
-    const response = await fetch(url);
+    const response = await fetch(memberUrl);
     const data = await response.json();
     // console.table(data.prophets);
     displayMembers(data.members);
