@@ -110,11 +110,7 @@ header h1 {
 .hero {
     position: relative;
     max-width: 100%;
-    /* display: flex; */
-    /* position: relative; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* grid-column: 1 / -1; */
+
 }
 .hero img {
     width: 100%;
@@ -189,17 +185,10 @@ header h1 {
 
 /*------------------------ Weather EDITS -------------------------*/
 #weather-card, #forecast {
-    /* margin: 0 auto; */
-    /* padding: 0.5rem; */
-    /* max-width: 1000px; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
-    /* grid-gap: 5px; */
-    /* align-items: center; */
+  
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
 
     background-color: var(--background-color);
     font-family: Playfair Display, Halvetica, sans-serif;
@@ -313,15 +302,6 @@ main hr {
     border-color: var(--secondary-color);
     grid-column: 1/-1;
   }
-.home ul {
-    list-style: none;
-}
-main li {
-    text-align: left;
-}
-main  li a{
-    text-decoration: none;
-}
 
 main {
     margin: 0 auto;
@@ -347,7 +327,6 @@ section h3 {
     border-top-left-radius: 8px;
     
 }
-/*------------------------ Directory page edits ----------------------*/
 
 /*------------------------ Directory page edits ----------------------*/
 
