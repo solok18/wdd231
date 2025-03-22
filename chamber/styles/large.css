@@ -5,7 +5,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	
-    .home section:nth-child(4) {
+    .home section:nth-child(5) {
 		grid-column: span 3;
 	}
     .hero{
