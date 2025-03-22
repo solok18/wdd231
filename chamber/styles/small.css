@@ -127,7 +127,7 @@ header h1 {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: #4C462E;
+    background: var(--secondary-color);
     padding: 1.5rem;
     opacity: .80;
     border-radius: 10px;
@@ -147,44 +147,93 @@ header h1 {
     /* margin: 0 auto; */
     /* padding: 0.5rem; */
     /* max-width: 1000px; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
-    /* grid-gap: 5px; */
-    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+    align-items: stretch;
+    
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    background-color: #fff;
+    background-color: var(--background-color);
     font-family: Playfair Display, Halvetica, sans-serif;
 }
 
 #spotlights section {
-
-    border: 1px solid #E6B800;
+    
+    border: 1px solid var(--background-color);
     padding: 0.5rem;
-    background-color: #4C462E;
+    background-color: var(--secondary-color);
     color: #fff;
 }
 #spotlights img {
     border: 1px solid #fff;
     box-shadow: 0 0 10px #fff;
     background-color: #fff;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: 100px;
     margin-top: 10px;
 }
 
 #spotlights a {
     font-family: Playfair Display, Halvetica, sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    color: var(--background-color);
+    letter-spacing: 1.1pt;
+    /* text-decoration: none; */
+}
+
+#spotlights section > * {
+    margin: 0.6rem;
+
+}
+
+/*------------------------ Weather EDITS -------------------------*/
+#weather-card {
+    /* margin: 0 auto; */
+    /* padding: 0.5rem; */
+    /* max-width: 1000px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    /* grid-gap: 5px; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+    background-color: var(--background-color);
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+
+#weather-card section {
+
+    /* border: 1px solid #E6B800; */
+    padding: 0.5rem;
+    width: 200px;
+    height: 250px;
+    
+    
+    
+}
+#weather-card img {
+    margin-top: 10px;
+    
+}
+
+#weather-card a {
+    font-family: Playfair Display, Halvetica, sans-serif;
     font-size: 1rem;
     color: #E6B800;
     letter-spacing: 1.1pt;
 }
+#weather-card span {
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+#weather-card p{
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
 
-#spotlights section > * {
+#weather-card section > * {
     margin: 0.6rem;
 
 }
@@ -344,3 +393,4 @@ section h3 {
     transition: all .03s ease-in-out;
     
 }
+

@@ -1,4 +1,4 @@
-const urlspotlight = 'https://raw.githubusercontent.com/solok18/wdd231/refs/heads/main/chamber/members.json';
+const urlspotlight = 'https://raw.githubusercontent.com/solok18/wdd231/refs/heads/main/chamber/spotlights.json';
 
 const cards = document.querySelector('#spotlights');
 
