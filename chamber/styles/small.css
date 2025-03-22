@@ -188,7 +188,7 @@ header h1 {
 }
 
 /*------------------------ Weather EDITS -------------------------*/
-#weather-card {
+#weather-card, #forecast {
     /* margin: 0 auto; */
     /* padding: 0.5rem; */
     /* max-width: 1000px; */
@@ -238,6 +238,38 @@ header h1 {
 
 }
 
+#forecast section {
+
+    /* border: 1px solid #E6B800; */
+    padding: 0.5rem;
+    width: 200px;
+    height: 250px;
+    
+    
+    
+}
+#forecast img {
+    margin-top: 10px;
+    
+}
+
+#forecast a {
+    font-family: Playfair Display, Halvetica, sans-serif;
+    font-size: 1rem;
+    color: #E6B800;
+    letter-spacing: 1.1pt;
+}
+#forecast span {
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+#forecast p{
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+
+#forecast section > * {
+    margin: 0.6rem;
+
+}
 /*------------------ here i edit the footer of the webpage  -------------*/
 footer {
     margin: auto;
