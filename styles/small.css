@@ -206,12 +206,13 @@ nav {
     background-color: var(--background-color);
     padding: 2rem;
     border-radius: 2px;
-    width: 80%;
+    /* width: 80%; */
+    
     
  }
 
  ::backdrop {
-    background-color: var(--background-color);
+    background-color: rgba(59, 87, 117, 0.5);
  }
 
  dialog button {

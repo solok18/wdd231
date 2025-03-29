@@ -48,5 +48,18 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-
+	/*--------------------------- FORM LAYOUT ---------------------------*/
+	.form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		gap: 10px;
+	}
+	.cwf1 {
+		grid-row:1/5 ;
+	}
+	.membership {
+		/* background-color: #E6B800; */
+		grid-column: 2/3;
+	}
 }

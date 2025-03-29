@@ -78,6 +78,7 @@ const courses = [
     }
 ]
 
+import { displayCourseDetails } from "./model.js";
 
 function displayCourses(courseList) {
     const coursesSection = document.querySelector("#course-list");
@@ -99,6 +100,8 @@ function displayCourses(courseList) {
         // <p><strong>Credits:</strong> ${course.credits}</p>
         // <p><strong>Technologies:</strong> ${course.technology.join(",")}</p>
         // `;
+
+        courseCard.addEventListener("click", () => displayCourseDetails(course));
 
         coursesSection.appendChild(courseCard);
     });
