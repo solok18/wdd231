@@ -477,7 +477,7 @@ section h3 {
 .cwf1 input[type="submit"]
 {
     border: none;
-    background-image: linear-gradient(#807033, #E6B800) ;
+    background-image: linear-gradient(var(--background-color), var(--secondary-color)) ;
     color: #ffffff;
     border-radius: 6px;
     padding: .8rem;
@@ -531,16 +531,7 @@ section h3 {
     }
 }
 
-#gold {
-    background-color: gold;
-}
-#silver {
-    background-color: silver;
-}
-#bronze {
-    background-color: #a56627; 
-    color: #ffffff;
-}
+
 
 /* ===== Memberships ===== */
 

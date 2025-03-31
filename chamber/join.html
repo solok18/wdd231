@@ -14,7 +14,7 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Directory">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/sanfran-small">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVOcbK54aQh7Cs2rIYbB4caO8hi8Uxrwy_qA&s">
     <meta property="og:url" content="https://solok18.github.io/wdd231/chamber/index.html">
 </head>
 <body>
@@ -35,8 +35,8 @@
         <form method="get" action="thankyou.html" class="cwf1">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label>First Name*<input type="text" name="fname" id="fname" required></label>
-                <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label>First Name*<input type="text" name="fname" id="fname" autocomplete="on" required></label>
+                <label>Last Name*<input type="text" name="lname" id="lname" autocomplete="on" required></label>
                 <label>Organizational Title*<input type="text" name="title" id="title" required pattern="[A-Za-z\d]{7,}$"></label> <!-- come back to this to edit pattern -->
                 <label>Email Address*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
                 <label>Phone Number*<input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
