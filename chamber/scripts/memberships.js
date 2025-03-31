@@ -8,6 +8,7 @@ const memberships = [
         advertising: 'Prime homepage spotlight + social media promo',
         sponsorships: 'Recognized at all major events',
         networking: 'Direct connection to high-profile partners',
+        price: '$999/year',
     },
     {
         membershipType: 'Silver',
@@ -18,6 +19,7 @@ const memberships = [
         advertising: 'Featured placement on homepage & newsletter',
         sponsorships: 'Recognized in select events',
         networking: 'Introductions to potential sponsors',
+        price: '$499/year',
     },
     {
         membershipType: 'Bronze',
@@ -28,6 +30,7 @@ const memberships = [
         advertising: 'Logo on the website directory',
         sponsorships: 'Listed as a supporter',
         networking: 'Invitation to member networking groups',
+        price: '$199/year',
     },
     {
         membershipType: 'Non-Profit',
@@ -38,6 +41,7 @@ const memberships = [
         advertising: 'Nonprofit spotlight in newsletters & website',
         sponsorships: 'Featured as a mission partner in fundraising efforts',
         networking: 'Exclusive nonprofit coalition & donor introductions',
+        price: '$299/year',
     }
     
 ]

@@ -11,6 +11,7 @@ export function displaymembershipDetails(membership) {
     <button id="closeModal">❌</button>
     <h2>${membership.membershipType} Membership</h2>
     
+    <p><strong>Price</strong>: ${membership.price}</p>
     <p><strong>Event Dsicounts</strong>: ${membership.eventDiscount}</p>
     <p><strong>Special Events</strong>: ${membership.specialEvent}</p>
     <p><strong>Training and Workshops</strong>: ${membership.trainingWorkshops}</p>
