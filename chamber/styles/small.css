@@ -27,8 +27,7 @@ p {
 
 /*---------------- Here is where the menu will be edited --------------*/
 nav {
-    font-family: "Playfair Display"
-, Helvetica, sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
 /*----------- here will be the edits for the hero and call to action --------------*/
@@ -414,6 +413,7 @@ section h3 {
 }
 .cwf1 {
     grid-row:1/5 ;
+    grid-column: 1/3;
 }
 .membership {
     grid-column: 1/2;
@@ -544,10 +544,47 @@ section h3 {
 
 /* ===== Memberships ===== */
 
+#memberships {
+    background-color: white;
+    border: none;
+    padding: 25px;
+    width: 100%;
+    grid-row: 5/6;
+    grid-column: 1/3;
+
+    transform: scale(0);
+    animation: scaleUp 1s ease-out forwards;
+}
+
+@keyframes scaleUp {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+#memberships h2 {
+    display: block;
+    visibility: visible;
+ }
+/* #memberships section {
+    margin: 100px;
+    margin-top: 0px;
+} */
+
 /* ===== THANK YOU ===== */
 .thankyou p{
     grid-column: 1/3;
     text-align: left;
     margin: 50px;
     
+}
+
+dialog {
+    text-align: left;
+}
+dialog h2 {
+    text-align: center;
 }

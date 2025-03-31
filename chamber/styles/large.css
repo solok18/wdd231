@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 500px) {
 	/* MENU
 	 */
 	.home {
@@ -57,9 +57,16 @@
 	}
 	.cwf1 {
 		grid-row:1/5 ;
+		grid-column: 1/2;
 	}
-	.membership {
-		/* background-color: #E6B800; */
+	
+	 /* ===== Memberships ===== */
+	#memberships {
 		grid-column: 2/3;
+		grid-row: 1/5;
+	}
+
+	#memberships section {
+		margin-bottom: 50px;
 	}
 }
