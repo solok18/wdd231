@@ -9,43 +9,43 @@
         {
             "name" : "Disneyland Resort",
             "addresses" : "1313 Disneyland Dr, Anaheim, CA 92802",
-            "imageurl" : "",
+            "imageurl" : "images/disney.webp",
             "description" : "The original Disney theme park, opened in 1955, Disneyland is a magical destination for families and Disney fans. It includes Disneyland Park and Disney California Adventure, full of rides, shows, and characters."
         },
         {
             "name" : "Yosemite National Park",
             "addresses" : "Yosemite Village, CA 95389",
-            "imageurl" : "",
+            "imageurl" : "images/yosemity.webp",
             "description" : "Known for its breathtaking granite cliffs, waterfalls, and ancient sequoia trees, Yosemite is a UNESCO World Heritage site located in the Sierra Nevada mountains. It's perfect for hiking, rock climbing, and photography."
         },
         {
             "name" : "Hollywood Walk of Fame",
             "addresses" : "Hollywood Blvd, Los Angeles, CA 90028",
-            "imageurl" : "",
+            "imageurl" : "images/hollywood.webp",
             "description" : "Stretching over 15 blocks, this iconic sidewalk features more than 2,700 stars honoring celebrities from the entertainment industry. It's located near famous landmarks like TCL Chinese Theatre and Dolby Theatre."
         },
         {
             "name" : "Napa Valley Wine Country",
             "addresses" : "Napa, CA 94559",
-            "imageurl" : "",
+            "imageurl" : "images/napa.webp",
             "description" : "A premier wine-producing region, Napa Valley is home to hundreds of vineyards and wineries. It's a top destination for wine tastings, gourmet dining, and scenic countryside views."
         },
         {
             "name" : "San Diego Zoo",
             "addresses" : "2920 Zoo Dr, San Diego, CA 92101",
-            "imageurl" : "",
+            "imageurl" : "images/zoo.webp",
             "description" : "One of the world's most famous zoos, the San Diego Zoo houses over 12,000 animals across 650 species. Located in Balboa Park, it's known for its lush habitats and conservation efforts."
         },
         {
             "name" : "Lake Tahoe",
             "addresses" : "South Lake Tahoe, CA 96150",
-            "imageurl" : "",
+            "imageurl" : "images/lake-tahoe.webp",
             "description" : "Straddling the California-Nevada border, Lake Tahoe is a popular year-round destination for skiing, snowboarding, hiking, and water sports. Its crystal-clear waters and alpine scenery make it a must-visit."
         },
         {
             "name" : "Hearst Castle",
             "addresses" : "750 Hearst Castle Rd, San Simeon, CA 93452",
-            "imageurl" : "",
+            "imageurl" : "images/hearst-castle.webp",
             "description" : "Built by newspaper magnate William Randolph Hearst, this opulent estate features stunning architecture, art collections, and panoramic views of the Pacific Ocean. Guided tours explore its grand rooms and gardens."
         }
     ]
