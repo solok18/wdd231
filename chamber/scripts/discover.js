@@ -30,7 +30,7 @@ function displayareas(areas) {
         // }
 
         areaCard.innerHTML = `
-            ${area.imageurl ? `<img src="${area.imageurl}" alt="${area.name}">`: ''}
+            ${area.imageurl ? `<img src="${area.imageurl}" alt="${area.name}" loading="lazy">`: ''}
             <h2>${area.name}</h2>
             <button class="more-info">Learn More</button>
             
