@@ -579,3 +579,47 @@ dialog {
 dialog h2 {
     text-align: center;
 }
+
+/*----------------------- DISCOVER -----------------------*/
+#areas {
+    display: grid;
+	grid-template-columns: 1fr;
+	grid-column:1/2 ;
+    justify-content: center;
+}
+.are-card {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    /* box-sizing: border-box; */
+    /* border: 1px solid var(--secondary-color); */
+    /* border-radius: 10px; */
+    overflow: hidden;
+}
+.area-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.area-card {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    /* word-wrap: break-word; */
+    text-align: center;
+}
+
+.area-card h2 {
+    padding: 1rem ;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    
+    /* margin: 0; */
+}
+
+.area-card button {
+    margin: 1rem;
+    padding: .5rem;
+    cursor: pointer;
+}
