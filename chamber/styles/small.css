@@ -7,10 +7,6 @@
 }
 
 :root{
-    /* --primary-color: #2E5C37;
-    --secondary-color: #223325;
-    --background-color: #326E96; */
-
     --primary-color: #3B6B2B;
     --secondary-color: #0F3303;
     --background-color: #D8EAD2;
@@ -139,9 +135,6 @@ header h1 {
 /*------------------ Spotlight  -------------*/
 
 #spotlights {
-    /* margin: 0 auto; */
-    /* padding: 0.5rem; */
-    /* max-width: 1000px; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 5px;
@@ -174,7 +167,6 @@ header h1 {
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     color: var(--background-color);
     letter-spacing: 1.1pt;
-    /* text-decoration: none; */
 }
 
 #spotlights section > * {
@@ -194,14 +186,9 @@ header h1 {
 }
 
 #weather-card section {
-
-    /* border: 1px solid #E6B800; */
     padding: 0.5rem;
     width: 200px;
     height: 250px;
-    
-    
-    
 }
 #weather-card img {
     margin-top: 10px;
@@ -227,14 +214,9 @@ header h1 {
 }
 
 #forecast section {
-
-    /* border: 1px solid #E6B800; */
     padding: 0.5rem;
     width: 200px;
-    height: 250px;
-    
-    
-    
+    height: 250px;  
 }
 #forecast img {
     margin-top: 10px;
@@ -272,21 +254,6 @@ footer {
 }
 
 /*---------------- here is to edit the main list  ---------------------*/
-
-
-/* main {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    width: 100%;
-    max-width: 90%;
-}
-main section{
-    margin: 0.5rem;
-    border: 1px solid var(--secondary-color);
-    border-radius: 8px;
-} */
 
 
 main h2 {
@@ -560,10 +527,6 @@ section h3 {
     display: block;
     visibility: visible;
  }
-/* #memberships section {
-    margin: 100px;
-    margin-top: 0px;
-} */
 
 /* ===== THANK YOU ===== */
 .thankyou p{
@@ -591,35 +554,37 @@ dialog h2 {
     width: 100%;
     height: auto;
     padding: 1rem;
-    /* box-sizing: border-box; */
-    /* border: 1px solid var(--secondary-color); */
-    /* border-radius: 10px; */
     overflow: hidden;
+
 }
 .area-card img {
     width: 100%;
     height: auto;
+    max-width: 600px;
     object-fit: cover;
     border-radius: 8px;
+    aspect-ratio: 3/2;
 }
 
 .area-card {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
-    /* word-wrap: break-word; */
+
     text-align: center;
 }
 
 .area-card h2 {
     padding: 1rem ;
     font-size: clamp(1.2rem, 5vw, 1.5rem);
-    
-    /* margin: 0; */
 }
 
 .area-card button {
     margin: 1rem;
     padding: .5rem;
     cursor: pointer;
+}
+
+.active::before {
+    content: "✦";
 }

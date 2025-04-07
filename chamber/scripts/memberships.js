@@ -52,7 +52,7 @@ function displaymemberships(membershipList) {
     const membershipsSection = document.querySelector("#memberships");
     membershipsSection.innerHTML = "";
 
-    // let totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
+    
 
     membershipList.forEach(membership => {
 
@@ -65,32 +65,22 @@ function displaymemberships(membershipList) {
 
         membershipCard.innerHTML = `
         <h3>${membership.membershipType} ${membership.benefits}</h3>`;
-        // <p><strong>Credits:</strong> ${membership.credits}</p>
-        // <p><strong>Technologies:</strong> ${membership.technology.join(",")}</p>
-        // `;
+        
 
         membershipCard.addEventListener("click", () => displaymembershipDetails(membership));
 
         membershipsSection.appendChild(membershipCard);
     });
 
-    // document.querySelector("#totalCredits").textContent = `Total Credits: ${totalCredits}`;
+    
 }
 
 displaymemberships(memberships);
 
-// function filtermemberships(category) {
-//     let filtermemberships;
-
-//     if (category === "all") {
-//         filtermemberships = memberships;
-//     } else {
-//         filtermemberships = memberships.filter(membership => membership.subject === category);
-//     }
-
-//     displaymemberships(filtermemberships);
-// }
-
-
-// let totalCredits = memberships.reduce((sum, membership) => sum + membership.credits, 0);
-// document.querySelector("#totalCredits").textContent = `Total Credits: ${totalCredits}`;
+document.addEventListener("DOMContentLoaded", () => {
+    const dateField = document.querySelector("#dt");
+    if (dateField) {
+        const now = new Date().toISOString();
+        dateField.value = now;
+    }
+});

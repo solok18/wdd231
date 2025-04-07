@@ -9,21 +9,15 @@
         width: 100%;
         height: auto;
         padding: 1rem;
-        /* box-sizing: border-box; */
-        /* border: 1px solid var(--secondary-color); */
-        /* border-radius: 10px; */
         overflow: hidden;
     }
 
     .area-card img {
         width: 100%;
         height: auto;
+        max-width: 600px;
         object-fit: cover;
         border-radius: 8px;
+        aspect-ratio: 3/2;
     }
-    /* .area-card h2 {
-        padding: 1rem ;
-        font-size: 1.5rem;
-
-    } */
 }

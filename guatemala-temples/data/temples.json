@@ -1,0 +1,30 @@
+{
+    "temples" : [
+        {
+            "name" : "Miraflores Guatemala City",
+            "location": "Guatemala",
+            "addresses": "n/a",
+            "phone": "n/a",
+            "announcement": "4 October, 2020",
+            "grounbraking": "3 December, 2022",
+            "siteDedication":"Patricio M. Giuffra",
+            "dedication": "n/a",
+            "decicatedBy": "n/a",
+            "imageurl" : "",
+            "groundbrakingCeremony" : "The groundbreaking ceremony for the Miraflores Guatemala City Guatemala Temple was held on Saturday, December 3, 2022. Elder Patricio M. Giuffra, second counselor in the Central America Area presidency, presided. The temple will be constructed on the 1.5-acre site of the former Roosevelt Ward meetinghouse at the intersection of 13 Calle and 5A Avenida in Guatemala City. The two-story temple will be approximately 30,000 square feet."
+        },
+        {
+            "name" : "Coban",
+            "location": "Guatemala",
+            "addresses": "4ª. Avenida 4-48 Zona 8, Cobán, Alta Verapaz",
+            "phone": "(+502) 7963-6150",
+            "announcement": "5 October, 2019",
+            "grounbraking": "14 November, 2020",
+            "siteDedication":"Brian K. Taylor",
+            "dedication": "9 June, 2024",
+            "decicatedBy": "Dale G. Renlund",
+            "imageurl" : "",
+            "groundbrakingCeremony" : "Elder Brian K. Taylor, president of the Central America Area, presided at the groundbreaking ceremony for the Cobán Guatemala Temple on November 14, 2020. Located in the highlands of central Guatemala, Cobán will be the third city in Guatemala to have a temple. The nation's fourth temple has been announced for an unknown location in the Guatemala City metropolitan area. The 5.4-acre site for the 8,800-square-foot temple is adjacent to an existing meetinghouse in Barrio Bella Vista. Plans call for a patron housing facility and meetinghouse to also be constructed on site. In his dedicatory prayer, Elder Taylor prayed, 'Wilt Thou accept our offering and may Thy grace and presence abide here and in our lives always is our humble prayer and earnest petition.' The recorded ceremony will be broadcast this evening at 6:00 p.m. CST. 3"
+        }
+    ]
+}
