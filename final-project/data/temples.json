@@ -10,7 +10,7 @@
             "siteDedication":"Patricio M. Giuffra",
             "dedication": "n/a",
             "decicatedBy": "n/a",
-            "imageurl" : ""
+            "imageurl" : "images/miraflores-guatemala-temple.webp"
         },
         {
             "name" : "Coban",
@@ -22,7 +22,7 @@
             "siteDedication":"Brian K. Taylor",
             "dedication": "9 June, 2024",
             "decicatedBy": "Dale G. Renlund",
-            "imageurl" : ""
+            "imageurl" : "images/coban-guatemala-temple.webp"
         },
         {
             "name" : "Quetzaltenango",
@@ -34,7 +34,7 @@
             "siteDedication":"Don R. Clarke",
             "dedication": "11 December, 2011",
             "decicatedBy": "Dieter F. Uchtdorf",
-            "imageurl" : ""
+            "imageurl" : "images/quetzaltenango-guatemala-temple.webp"
         },
         {
             "name" : "Retalhuleu",
@@ -46,7 +46,7 @@
             "siteDedication":"n/a",
             "dedication": "n/a",
             "decicatedBy": "n/a",
-            "imageurl" : ""
+            "imageurl" : "images/retalhuleu-guatemala-temple.webp"
         },
         {
             "name" : "Guatemala City",
@@ -58,7 +58,7 @@
             "siteDedication":"Richard G. Scott",
             "dedication": "14-16 December, 1984",
             "decicatedBy": "Gordon B. Hinckley",
-            "imageurl" : ""
+            "imageurl" : "images/guatemala-city-guatemala-temple.webp"
         },
         {
             "name" : "Huehuetenango",
@@ -70,7 +70,7 @@
             "siteDedication":"n/a",
             "dedication": "n/a",
             "decicatedBy": "n/a",
-            "imageurl" : ""
+            "imageurl" : "images/huehuetenango-guatemala-temple.webp"
         }
     ]
 }
