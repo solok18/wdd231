@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Guatemala: Latter-day Saint Temples and Local Culture</title>
+    <meta 
+        name="description"
+        content="The California Chamber of Commerece Directory will give a list of businesses that are with us.">
+    <meta name="author" content="Kevin Solorzano">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/sanfran-small">
+    <meta property="og:url" content="https://solok18.github.io/wdd231/chamber/index.html">
+</head>
+<body>
+    <header>
+        <h1>Sacred Guatemala: Latter-day Saint Temples and Local Culture</h1>
+    </header>
+    <button id="menu" title="Menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="locations.html">Location</a></li>
+        </ul>
+    </nav>
+    <main class="home">
+        <section class="hero">
+            <picture>
+                <source srcset="" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img class="hero-image" src="images/sanfran-large.webp" alt="sacramento" width="1500" height="750">
+            </picture>
+        </section>
+        <section class="cutureCard">
+            <h2>item1</h2>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <hr>
+            <div id="weather-card"></div>
+        </section>
+        <section class="forecastTomorrow">
+            <h2>Forecast</h2>
+            <hr>
+            <div id="forecast"></div>
+        </section>
+        <section class="templeCard">
+            <h2>Temples</h2>
+            <hr>
+            <div id="spotlights"></div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> | Kevin Solorzano | WDD 231 Project 
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <!-- <script src="scripts/weather.js" defer></script> -->
+    <!-- <script src="scripts/forcast.js" defer></script> -->
+</body>
+</html>

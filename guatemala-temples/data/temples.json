@@ -3,28 +3,74 @@
         {
             "name" : "Miraflores Guatemala City",
             "location": "Guatemala",
-            "addresses": "n/a",
+            "addresses": "13 Calle 5-56, Zona 11, Guatemala City",
             "phone": "n/a",
             "announcement": "4 October, 2020",
             "grounbraking": "3 December, 2022",
             "siteDedication":"Patricio M. Giuffra",
             "dedication": "n/a",
             "decicatedBy": "n/a",
-            "imageurl" : "",
-            "groundbrakingCeremony" : "The groundbreaking ceremony for the Miraflores Guatemala City Guatemala Temple was held on Saturday, December 3, 2022. Elder Patricio M. Giuffra, second counselor in the Central America Area presidency, presided. The temple will be constructed on the 1.5-acre site of the former Roosevelt Ward meetinghouse at the intersection of 13 Calle and 5A Avenida in Guatemala City. The two-story temple will be approximately 30,000 square feet."
+            "imageurl" : ""
         },
         {
             "name" : "Coban",
             "location": "Guatemala",
-            "addresses": "4ª. Avenida 4-48 Zona 8, Cobán, Alta Verapaz",
+            "addresses": "4ª. Avenida 4-48 Zona 8, Barrio Bella Vista, Cobán, Alta Verapaz",
             "phone": "(+502) 7963-6150",
             "announcement": "5 October, 2019",
             "grounbraking": "14 November, 2020",
             "siteDedication":"Brian K. Taylor",
             "dedication": "9 June, 2024",
             "decicatedBy": "Dale G. Renlund",
-            "imageurl" : "",
-            "groundbrakingCeremony" : "Elder Brian K. Taylor, president of the Central America Area, presided at the groundbreaking ceremony for the Cobán Guatemala Temple on November 14, 2020. Located in the highlands of central Guatemala, Cobán will be the third city in Guatemala to have a temple. The nation's fourth temple has been announced for an unknown location in the Guatemala City metropolitan area. The 5.4-acre site for the 8,800-square-foot temple is adjacent to an existing meetinghouse in Barrio Bella Vista. Plans call for a patron housing facility and meetinghouse to also be constructed on site. In his dedicatory prayer, Elder Taylor prayed, 'Wilt Thou accept our offering and may Thy grace and presence abide here and in our lives always is our humble prayer and earnest petition.' The recorded ceremony will be broadcast this evening at 6:00 p.m. CST. 3"
+            "imageurl" : ""
+        },
+        {
+            "name" : "Quetzaltenango",
+            "location": "Guatemala",
+            "addresses": "9A Calle 4-03, Zona 9, Frente a Residenciales Los Cerezos 1, 09001  Quetzaltenango",
+            "phone": "(+502) 7728-1603",
+            "announcement": "16 December, 2006",
+            "grounbraking": "14 March, 2009",
+            "siteDedication":"Don R. Clarke",
+            "dedication": "11 December, 2011",
+            "decicatedBy": "Dieter F. Uchtdorf",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Retalhuleu",
+            "location": "Guatemala",
+            "addresses": "Km. 182.5 RN-9, Caserío Puca I, San Sebastián, Retalhuleu",
+            "phone": "n/a",
+            "announcement": "2 April 2023",
+            "grounbraking": "n/a",
+            "siteDedication":"n/a",
+            "dedication": "n/a",
+            "decicatedBy": "n/a",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Guatemala City",
+            "location": "Guatemala",
+            "addresses": "24 Avenida 2-20, Zona 15, Vista Hermosa 1, Guatemala City, Guatemala",
+            "phone": "(+502) 2329-8300",
+            "announcement": "1 April 1981",
+            "grounbraking": "12 September 1982",
+            "siteDedication":"Richard G. Scott",
+            "dedication": "14-16 December, 1984",
+            "decicatedBy": "Gordon B. Hinckley",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Huehuetenango",
+            "location": "Guatemala",
+            "addresses": "18 Avenida, Zona 4, El Terrero, Huehuetenango",
+            "phone": "n/a",
+            "announcement": "2 October 2022",
+            "grounbraking": "n/a",
+            "siteDedication":"n/a",
+            "dedication": "n/a",
+            "decicatedBy": "n/a",
+            "imageurl" : ""
         }
     ]
 }
