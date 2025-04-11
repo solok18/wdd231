@@ -1,0 +1,88 @@
+{
+    "temples" : [
+        {
+            "name" : "Miraflores, Guatemala",
+            "fact1":"Zona 1, the historic center, features colonial architecture and vibrant markets, while areas like Zona 10 are more cosmopolitan.",
+            "fact2":"The city is built in a highland valley and prone to earthquakes—this has influenced both the architecture and the city's development over time.",
+            "food1":"La Cocina de la Señora Pu",
+            "foodUrl1":"https://www.senorapu.com/",
+            "food2":"La Fonda de la Calle Real",
+            "foodUrl2":"https://lafondadelacallereal.com/index.html",
+            "location1":"La Inmaculada Hotel",
+            "locationUrl1":"https://www.inmaculadahotel.com/hotel-directions.html",
+            "location2":"Hilton Guatemala City",
+            "LocationUrl2":"https://www.hilton.com/en/hotels/guallhh-hilton-guatemala-city/?SEO_id=GMB-AMER-HH-GUALLHH&y_source=1_MTIxNjk1MDQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Coban, Guatemala",
+            "fact1":"Cobán is the heartland of the Q'eqchi' Maya people and a stronghold for traditional highland culture and language.",
+            "fact2":"It's famous for kak'ik, a red chili and turkey stew that's one of Guatemala's most iconic traditional dishes, often enjoyed during celebrations.",
+            "food1":"El Peñascal",
+            "foodUrl1":"https://www.tripadvisor.com/Restaurant_Review-g612400-d1990737-Reviews-El_Penascal-Coban_Alta_Verapaz_Department.html",
+            "food2":"Comedor Kak'ik",
+            "foodUrl2":"",
+            "location1":"Casa Gaia",
+            "locationUrl1":"https://hotelcasagaia.com/",
+            "location2":"Hotel Casa Duranta",
+            "LocationUrl2":"https://casaduranta.com/",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Quetzaltenango, Guatemala",
+            "fact1":"Quetzaltenango is a hub for Spanish language schools and draws students from around the world to learn in an immersive setting.",
+            "fact2":"It's considered the second cultural capital of the country, with a strong K'iche' Maya influence in both language and traditions.",
+            "food1":"Comedor Chicharron",
+            "foodUrl1":"",
+            "food2":"Mercado de la Democracia",
+            "foodUrl2":"",
+            "location1":"Hotel Casa Mañen",
+            "locationUrl1":"",
+            "location2":"Hostal Casa Seibel",
+            "LocationUrl2":"https://www.casaseibelhostelinxela.com/",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Retalhuleu, Guatemala",
+            "fact1":"This department is in the warm Pacific lowlands and is known for its sugarcane production and tropical fruits.",
+            "fact2":"It's home to IRTRA parks like Xetulul and Xocomil, which are popular family attractions and national landmarks.",
+            "food1":"Katok Restaurant",
+            "foodUrl1":"",
+            "food2":"Las Marias Restaurant",
+            "foodUrl2":"",
+            "location1":"Hotel Astor",
+            "locationUrl1":"https://hotelastorguatemala.com/",
+            "location2":"Hostal El Emperador",
+            "LocationUrl2":"",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Guatemala City, Guatemala",
+            "fact1":"It's the largest city in Central America and home to major cultural institutions like the National Palace of Culture and the Museo Popol Vuh, which houses Mayan artifacts.",
+            "fact2":"The city sits atop an ancient Mayan city called Kaminaljuyú, and remnants of it can still be seen in various zones.",
+            "food1":"La Casa del Tamal",
+            "foodUrl1":"",
+            "food2":"Arrin Cuan",
+            "foodUrl2":"",
+            "location1":"Posada Belén Museo Inn",
+            "locationUrl1":"https://posada-belen-museo-inn.guatemalaantiguahotels.com/en/",
+            "location2":"Hotel Ajau Colonial",
+            "LocationUrl2":"https://hotelajaucolonial.com/",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Huehuetenango, Guatemala",
+            "fact1":"Huehuetenango is internationally known for its high-quality coffee, grown in the cool highlands at high altitudes.",
+            "fact2":"It's near the Zaculeu archaeological site, a pre-Columbian city of the Mam Maya civilization, showcasing impressive white stone architecture.",
+            "food1":"Restaurante y Cafeteria 'La Cabaña'",
+            "foodUrl1":"",
+            "food2":"Comedor Típico Doña Chonita",
+            "foodUrl2":"",
+            "location1":"Hotel Premier Huehue",
+            "locationUrl1":"https://hotelpremierhuehuetenango.com-hotel.com/",
+            "location2":"Casa Blanca Guesthouse",
+            "LocationUrl2":"https://www.facebook.com/HotelyRestauranteCasaBlanca/",
+            "imageurl" : ""
+        }
+    ]
+}
