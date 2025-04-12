@@ -25,12 +25,13 @@ function displayTemples(temples) {
 
     
         templeCard.innerHTML = `
-            <img src="${temple.imageurl}" alt="${temple.name}" loading="lazy" width="300" height="200">
-            <h2>${temple.name}</h2>
-            <button class="more-info">Learn More</button>
+            <img src="${temple.imageurl}" alt="${temple.name}" loading="lazy" width="300" height="200" class="temple-image">
+            
         `;
+            // <h2>${temple.name}</h2>
+            // <button class="more-info">Learn More</button>
         
-        const moreInfo = templeCard.querySelector('.more-info');
+        const moreInfo = templeCard.querySelector('.temple-image');
         moreInfo.addEventListener("click", () => displayTempleDetails(temple));
 
         templeContainer.appendChild(templeCard);

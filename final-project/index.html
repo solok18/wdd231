@@ -8,14 +8,17 @@
         name="description"
         content="the Sacred Guatemala: Latter-day Saint Temples and Local Culture website is here to provide information on the lds temples and the local culture near this temples">
     <meta name="author" content="Kevin Solorzano">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Directory">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="images/guatemala.webp">
+    <meta property="og:url" content="https://solok18.github.io/wdd231/final-project/index.html">
 </head>
 <body>
     <header>
@@ -32,29 +35,38 @@
     <main class="home">
         <section class="hero">
             <picture>
-                <source srcset="" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img class="hero-image" src="images/sanfran-large.webp" alt="sacramento" width="1500" height="750">
+                <!-- <source srcset="" media="(max-width: 500px)"> -->
+                <!-- <source srcset="" media="(max-width: 1000px)"> -->
+                <img class="hero-image" src="images/guatemala.webp" alt="sacramento" width="1500" height="750">
             </picture>
         </section>
-        <section class="cutureCard">
-            <h2>item1</h2>
+        <section class="cultureCard">
+            <h2>Fun Facts About Guatemala</h2>
+            <p><strong>Family and Community: </strong>Guatemalans value family and close relationships, with visiting friends and relatives being an important part of their social lives.</p>
+            <p><strong>Traditional Clothing and textiles: </strong>Mayan textiles are a vibrant and intricate part of Guatemalan culture, with each region boasting unique patterns and techniques.</p>
+            <p><strong>Honesty and Respect: </strong>Guatemalan society values honesty, honor, and respect for elders and authority figures.</p>
+            <p><strong>Celebrations and Festivals: </strong>Fiestas, or celebrations, are a common form of entertainment, often featuring marimba orchestras and traditional music.</p>
+            <p><strong>Food and Cuisine: </strong>Guatemalan cuisine is heavily influenced by Mayan traditions, with corn, chiles, and beans being staple ingredients. </p>
+            <p><strong>Art and Music: </strong>Guatemalan art and music are influenced by both Mayan and Spanish traditions, with vibrant textiles, marimba music, and traditional dance being prominent.</p>
         </section>
         <section class="weather">
             <h2>Weather</h2>
             <hr>
             <div id="weather-card"></div>
         </section>
-        <section class="forecastTomorrow">
+        <section class="templeCard">
+            <h2>Fun Facts About Temples in Guatemala</h2>
+            <p><strong>Guatemala City Guatemala Temple: </strong>It was the first LDS temple built not only in Guatemala but in all of Central America, dedicated in 1984.</p>
+            <p><strong>Quetzaltenango Guatemala Temple: </strong>At over 7,500 feet above sea level, it's one of the highest-elevation temples in the world!</p>
+            <p><strong>Cobán Guatemala Temple: </strong>The temple's inscriptions will include Q'eqchi', a Mayan language still spoken by thousands.</p>
+            <p><strong>Celebrations and Festivals: </strong>Fiestas, or celebrations, are a common form of entertainment, often featuring marimba orchestras and traditional music.</p>
+            <p><strong>Miraflores Guatemala City Guatemala Temple: </strong>When it's finished, Guatemala City will be one of the few cities in the world with two temples! </p>
+        </section>
+        <!-- <section class="forecastTomorrow">
             <h2>Forecast</h2>
             <hr>
             <div id="forecast"></div>
-        </section>
-        <section class="templeCard">
-            <h2>Temples</h2>
-            <hr>
-            <div id="spotlights"></div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <p>
@@ -64,7 +76,7 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
-    <!-- <script src="scripts/weather.js" defer></script> -->
+    <script src="scripts/weather.js" defer></script>
     <!-- <script src="scripts/forcast.js" defer></script> -->
 </body>
 </html>

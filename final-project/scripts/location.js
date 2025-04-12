@@ -25,11 +25,11 @@ function displaylocations(locations) {
 
     
         locationCard.innerHTML = `
-            <img src="${location.imageurl}" alt="${location.name}" loading="lazy" width="300" height="200">
+            
             <h2>${location.name}</h2>
             <button class="more-info">Learn More</button>
         `;
-        
+        // <img src="${location.imageurl}" alt="${location.name}" loading="lazy" width="300" height="200"></img>
         const moreInfo = locationCard.querySelector('.more-info');
         moreInfo.addEventListener("click", () => displaylocationDetails(location));
 
