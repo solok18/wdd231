@@ -11,7 +11,7 @@
     --accent1-color: #048abf;
     --accent2-color: #f2ae30;
 
-    --heading-font: "Cormoeant Garamond", sans-serif;
+    --heading-font: "Cormoeant Garamond", Helvetica, sans-serif;
     --paragraph-font: "Poppins", Helvetica, sans-serif;
 }
 /*------------------------------ BODY ------------------------------*/
@@ -132,6 +132,7 @@ footer{
     padding: 2rem;
     text-align: center;
     color: var(--secondary-color);
+    min-height: 100px;
 }
 /*------------------------------ TEMPLE MAIN ------------------------------*/
 .temple-info{
@@ -153,6 +154,7 @@ footer{
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 #temples section{
@@ -161,16 +163,18 @@ footer{
     padding: 1rem;
     /* background-color: var(--secondary-color); */
     /* color: var(--primary-color); */
-    width: 90%;
-    max-width: 500px;
+    /* width: 90%; */
+    /* max-width: 500px; */
     height: auto;
     align-content: center;
 }
 
 #temples img {
     width: 100%;
-    max-width: 500px;
-    height: auto;
+    /* max-width: 500px; */
+    /* height: auto; */
+    aspect-ratio: 3/2;
+    object-fit: cover;
 }
 #temples h3, p, img {
     padding: 5px;
@@ -200,6 +204,7 @@ footer{
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 #locations section{
@@ -208,9 +213,9 @@ footer{
     padding: 1rem;
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    width: 90%;
+    /* width: 90%; */
     max-width: 500px;
-    height: auto;
+    /* height: auto; */
     text-align: center;
 }
 
@@ -223,8 +228,8 @@ footer{
 .more-info{
     padding: 10px;
     border-radius: 10px;
-    background: var(--accent2-color);
-    color: #fff;
+    background: var(--secondary-color);
+    color: var(--primary-color);
     
 }
 .location-info{

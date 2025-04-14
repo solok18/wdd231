@@ -37,13 +37,18 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
+    /* #temples section {
+        width: 100%;
+    } */
     /*------------------------------ LOCATION MAIN ------------------------------*/
 
     #locations {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
     #locations section {
         width: 1000px;
