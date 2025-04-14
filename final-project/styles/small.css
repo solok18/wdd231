@@ -239,13 +239,15 @@ footer{
     background-color: var(--accent1-color);
     color: #fff;
 }
-.location-info h3{
+.location-info h3, .location-info div{
     text-align: center;
     padding: .05rem;
 }
 /*------------------------------ FORM ------------------------------*/
-.feedback {
+.feedback a{
     text-align: center;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .form {
@@ -314,7 +316,6 @@ footer{
 .cwf1 input[type="submit"]
 {
     border: none;
-    /* background-image: linear-gradient(var(--accent1-color), var(--secondary-color)) ; */
     color: #ffffff;
     background-color: var(--accent1-color);
     border-radius: 6px;
@@ -331,18 +332,6 @@ footer{
 .cwf1 input:required:valid {
     border-right: solid 8px green;
 }
-
-/* .cwf1 #rate{
-    width: 95%;
-    max-width: 400px;
-} */
-
-/* .cwf1 #rangevalues {
-    display: flex;
-    margin: 0 0 0 5px;
-    width: 100%;
-    max-width: 400px;
-} */
 
 .cwf1 #rangevalues option {
     flex: 1 1 auto;
