@@ -17,7 +17,7 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Directory">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="images/guatemala.webp">
     <meta property="og:url" content="https://solok18.github.io/wdd231/final-project/index.html">
 </head>
 <body>
@@ -29,33 +29,36 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="temples.html">Temples</a></li>
-            <li><a href="locations.html" class="active">Location</a></li>
+            <li><a href="locations.html">Location</a></li>
         </ul>
     </nav>
-    <main class="locations-home">
-        <section class="location-info">
-            <h3>Get to know the unique charm of each city location—plus recommendations for food and lodging nearby.</h3>
-            <div class="feedback">
-                <a  href="form.html">Please leave feedback here</a>
-            </div>
-        </section>
-        <div id="locations">
-            
-            <!-- <div id="memberships"></div> -->
-        </div>
-        <dialog id="location-details"></dialog>
+    <main class="form">
+        <form method="get" action="thankyou.html" class="cwf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" id="fname" autocomplete="on" required></label>
+                <label>Last Name*<input type="text" name="lname" id="lname" autocomplete="on" required></label>
+                <label>Email Address (optional)<input type="email" name="email" id="email" placeholder="someone@gmail.com"></label>
+                <div>Feedback</div>
+                <textarea name="description" id="description" cols="40" rows="10"></textarea>
+                <label ><input type="hidden" name="dt" id="dt"></label>
+
+            </fieldset>
+            <input type="submit" value="Join our Community">
+
+        </form>
     </main>
     <footer>
         <p>
             &copy; <span id="currentyear"></span> | Kevin Solorzano | WDD 231 Project 
         </p>
         <p id="lastModified"></p>
+        <p id="pageCount"></p>
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/location.js" type="module"></script>
-    <script src="scripts/location-model.js" type="module"></script>
-    <!-- <script src="scripts/weather.js" defer></script> -->
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/page-count.js" defer></script>
     <!-- <script src="scripts/forcast.js" defer></script> -->
 </body>
 </html>
